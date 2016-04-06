@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04264B1E1CB4B4B6005207CE /* JosmanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04264B1D1CB4B4B6005207CE /* JosmanViewController.m */; };
 		045690421CB4A7050057A7FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045690411CB4A7050057A7FC /* main.m */; };
 		045690451CB4A7050057A7FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045690441CB4A7050057A7FC /* AppDelegate.m */; };
 		045690481CB4A7050057A7FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045690471CB4A7050057A7FC /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04264B1C1CB4B4B6005207CE /* JosmanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JosmanViewController.h; sourceTree = "<group>"; };
+		04264B1D1CB4B4B6005207CE /* JosmanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JosmanViewController.m; sourceTree = "<group>"; };
 		0456903D1CB4A7050057A7FC /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045690411CB4A7050057A7FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		045690431CB4A7050057A7FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				045690461CB4A7050057A7FC /* ViewController.h */,
 				045690471CB4A7050057A7FC /* ViewController.m */,
 				045690491CB4A7050057A7FC /* Main.storyboard */,
+				04264B1C1CB4B4B6005207CE /* JosmanViewController.h */,
+				04264B1D1CB4B4B6005207CE /* JosmanViewController.m */,
 				0456904F1CB4A7050057A7FC /* Assets.xcassets */,
 				045690511CB4A7050057A7FC /* LaunchScreen.storyboard */,
 				045690541CB4A7050057A7FC /* Info.plist */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04264B1E1CB4B4B6005207CE /* JosmanViewController.m in Sources */,
 				045690481CB4A7050057A7FC /* ViewController.m in Sources */,
 				045690451CB4A7050057A7FC /* AppDelegate.m in Sources */,
 				0456904E1CB4A7050057A7FC /* finalProject.xcdatamodeld in Sources */,
@@ -500,6 +506,7 @@
 				0456906F1CB4A7050057A7FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		045690701CB4A7050057A7FC /* Build configuration list for PBXNativeTarget "finalProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +515,7 @@
 				045690721CB4A7050057A7FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		045690731CB4A7050057A7FC /* Build configuration list for PBXNativeTarget "finalProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +524,7 @@
 				045690751CB4A7050057A7FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
