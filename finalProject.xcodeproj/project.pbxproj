@@ -16,6 +16,7 @@
 		045690531CB4A7050057A7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045690511CB4A7050057A7FC /* LaunchScreen.storyboard */; };
 		0456905E1CB4A7050057A7FC /* finalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456905D1CB4A7050057A7FC /* finalProjectTests.m */; };
 		045690691CB4A7050057A7FC /* finalProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045690681CB4A7050057A7FC /* finalProjectUITests.m */; };
+		045690771CB4B4890057A7FC /* firstView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045690761CB4B4890057A7FC /* firstView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		045690641CB4A7050057A7FC /* finalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045690681CB4A7050057A7FC /* finalProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = finalProjectUITests.m; sourceTree = "<group>"; };
 		0456906A1CB4A7050057A7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045690761CB4B4890057A7FC /* firstView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = firstView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				045690541CB4A7050057A7FC /* Info.plist */,
 				0456904C1CB4A7050057A7FC /* finalProject.xcdatamodeld */,
 				045690401CB4A7050057A7FC /* Supporting Files */,
+				045690761CB4B4890057A7FC /* firstView.storyboard */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			files = (
 				045690531CB4A7050057A7FC /* LaunchScreen.storyboard in Resources */,
 				045690501CB4A7050057A7FC /* Assets.xcassets in Resources */,
+				045690771CB4B4890057A7FC /* firstView.storyboard in Resources */,
 				0456904B1CB4A7050057A7FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
