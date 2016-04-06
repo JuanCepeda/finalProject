@@ -5,6 +5,14 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
+        <!--Main-->
+        <scene sceneID="a40-nq-a9h">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="9dc-Pw-UjK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJ3-DU-bhN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="788" y="351"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="nbz-du-y97">
             <objects>
@@ -26,10 +34,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="9dc-Pw-UjK" kind="show" id="uzW-KA-9t1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Bp-Bd-lE1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="341" y="351"/>
+            <point key="canvasLocation" x="227" y="351"/>
         </scene>
     </scenes>
 </document>
